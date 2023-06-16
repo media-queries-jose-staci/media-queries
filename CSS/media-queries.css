@@ -1,13 +1,35 @@
 .alert-info.hidden-on-desktop {
     background-color: #c3f5f5;
     border: 2px solid lightgray;
-    padding: 25px 350px;
+    padding: 20px 250px;
     margin-top: 20px;
-
+    font-size: 30px;
 }
+
 .alert-info.hidden-on-desktop a {
     text-decoration: none;
     color: black;
     font-weight: 800;
+}
+
+.company h1 {
+    font-size: 80px;
+}
+
+.column.list {
+    width: 90%;
+}
+
+.nav-links {
+    list-style-type: none;
+
+
+}
+
+.nav-links li {
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    padding: 20px 250px;
+    font-size: 30px;
 }
 
