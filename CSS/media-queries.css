@@ -44,5 +44,24 @@ body{
         font-style: italic;
     }
 }
-@media screen and (min-width:992px) { /* ... */ }
+@media screen and (min-width:992px) {
+    .hidden-on-desktop{
+        display: none;
+    }
+    .moving-company-left{
+        align-self: flex-start;
+        padding: unset;
+        width: unset;
+    }
+    .nav-links{
+        align-self: flex-end;
+        background-color: unset;
+    }
+    .nav-links li{
+        background-color: unset;
+    }
+
+
+}
+
 
