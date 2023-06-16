@@ -1,0 +1,13 @@
+.alert-info.hidden-on-desktop {
+    background-color: #c3f5f5;
+    border: 2px solid lightgray;
+    padding: 25px 350px;
+    margin-top: 20px;
+
+}
+.alert-info.hidden-on-desktop a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
