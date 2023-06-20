@@ -96,6 +96,15 @@ body{
     .main-section p {
         padding-right: 15px;
     }
+    .a1 div{
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-between;
+
+    }
+    .header-img{
+
+    }
 
 }
 
