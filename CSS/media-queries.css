@@ -81,6 +81,22 @@ body{
         display: flex;
         justify-content: flex-end;
     }
+    #main div.row{
+        display: flex;
+        /*justify-content: space-between;*/
+        flex-direction: row;
+    }
+
+    .main-section {
+        flex-grow: 3;
+        /*margin-right: 10px;*/
+        /*padding-right: 15px;*/
+        /*margin-right: 20px;*/
+    }
+    .main-section p {
+        padding-right: 15px;
+    }
+
 }
 
 
