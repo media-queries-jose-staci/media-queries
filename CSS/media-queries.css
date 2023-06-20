@@ -48,20 +48,39 @@ body{
     .hidden-on-desktop{
         display: none;
     }
-    .moving-company-left{
-        align-self: flex-start;
+    .page-wrapper{
+        justify-content: unset;
+        align-items: unset;
         padding: unset;
+        margin: unset;
         width: unset;
     }
-    .nav-links{
-        align-self: flex-end;
-        background-color: unset;
+    .row.list{
+        padding: unset;
     }
     .nav-links li{
         background-color: unset;
+        padding:5px;
+        margin-left: 10px;
     }
+    .a1{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+    .company{
+        align-self: flex-start;
+    }
+    .list{
+        align-self: flex-start;
+        margin-right: auto;
 
-
+    }
+    .nav-links{
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 
